@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.env
+vector_store/
+*.index
+*.pkl
+.ipynb_checkpoints/
