@@ -65,7 +65,7 @@ def run_rag(question):
 
     query_embedding = create_query_embedding(question)
 
-    distances, indices = index.search(np.array(query_embedding), k=10)
+    distances, indices = index.search(np.array(query_embedding), k=5)
 
     retrieved_chunks = []
     sources = []
